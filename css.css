@@ -1,0 +1,104 @@
+
+/* Ajouter des styles pour les résultats de la recherche */
+#results-section {
+    margin-top: 20px;
+}
+
+.ticket-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Ajouter des styles pour la classe 'highlight' */
+.highlight {
+    background-color: yellow;
+}
+
+/* Ajouter des styles pour les balises structurantes HTML5 */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Ajouter des styles pour les balises 'audio' et 'video' */
+audio, video {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Ajouter des styles pour la classe 'marquee-text' */
+.marquee-text {
+    white-space: nowrap;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Ajouter des styles pour les balises 'section' et 'article' */
+section, article {
+    margin-bottom: 20px;
+}
+
+/* Ajouter des styles pour les balises 'aside' */
+aside {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+/* Ajouter des styles pour le pied de page */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Ajouter des styles pour la classe 'button' */
+button {
+    padding: 0.5em;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Ajouter des styles pour les liens hypertextes */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Ajouter des styles pour les listes numérotées et non numérotées */
+ul, ol {
+    margin-bottom: 10px;
+}
+
+/* Ajouter des styles pour la classe 'project-hosted' */
+.project-hosted {
+    font-weight: bold;
+    color: #27ae60;
+}

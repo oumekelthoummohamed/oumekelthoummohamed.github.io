@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Agence de Réservation</title>
+</head>
+
+<body>
+    <header>
+        <h1>Agence de Réservation</h1>
+        <nav>
+            <ul>
+                <li><a href="#search-section">Recherche de billets</a></li>
+                <li><a href="#results-section">Résultats</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="search-section">
+            <h2>Recherche de billets</h2>
+            <!-- Formulaire de recherche -->
+            <form id="search-form">
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" name="destination" required>
+
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <button type="button" onclick="searchTickets()">Rechercher</button>
+            </form>
+        </section>
+
+        <section id="results-section">
+            <h2>Résultats de la recherche</h2>
+            <!-- Affichage des résultats -->
+            <div id="results"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Agence de Réservation</p>
+    </footer>
+
+    <script src="JS.js"></script>
+</body>
+
+</html>
